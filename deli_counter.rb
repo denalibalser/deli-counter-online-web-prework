@@ -24,3 +24,15 @@ def take_a_number(line, new_person)
 end
 
 take_a_number(katz_deli, "Ava")
+
+def now_serving(line)
+  if line.length == 0
+    puts"There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line[0]}."
+    line.shift
+  end
+end
+
+puts now_serving(katz_deli)
+puts katz_deli
