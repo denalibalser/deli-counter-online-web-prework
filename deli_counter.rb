@@ -27,5 +27,5 @@ def take_a_number(array, element)
       counter += 1
     end
       puts "Welcome, #{name}. You are number #{counter} in line."
-    else
-      
+    end
+  end
