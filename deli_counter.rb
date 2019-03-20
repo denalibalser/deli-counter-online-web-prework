@@ -18,7 +18,7 @@ end
 
 line(katz_deli)
 
-def take_a_number(array, element)
+def take_a_number(array)
   if array.length < 1
     new_array = []
     counter = 1
