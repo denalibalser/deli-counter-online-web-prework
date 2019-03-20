@@ -17,3 +17,15 @@ def line(array)
 end
 
 line(katz_deli)
+
+def take_a_number(array, element)
+  if array.length < 1
+    new_array = []
+    counter = 1
+    array.each do |name|
+      new_array.push("#{name} #{counter}")
+      counter += 1
+    end
+      puts "Welcome, #{name}. You are number #{counter} in line."
+    else
+      
